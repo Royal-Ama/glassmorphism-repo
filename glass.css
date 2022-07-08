@@ -14,7 +14,7 @@
 }
 body {
     height: 100vh;
-    background: #161616;
+    background: #fc4289e5;
 }
 .container {
     position: relative;
@@ -26,13 +26,13 @@ body {
 .container::before {
     top: -100px;
     left: 50px;
-    background: linear-gradient(#f0f, #f00);
+    background: linear-gradient(rgb(245, 13, 25), rgb(245, 209, 4));
     clip-path: circle(20% at 25% 30%);
 }
 .container::after {
     top: 100px;
     left: 5px;
-    background: linear-gradient(#e91e63, #2196f3);
+    background: linear-gradient(#0541c4, #2196f3);
     clip-path: circle(20% at 70% 65%);
 }
 .container .card-wrapper {
